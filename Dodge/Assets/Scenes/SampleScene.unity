@@ -447,6 +447,7 @@ GameObject:
   - component: {fileID: 1131125403}
   - component: {fileID: 1131125402}
   - component: {fileID: 1131125401}
+  - component: {fileID: 1131125406}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -549,6 +550,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1131125406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131125400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b30cc3959cc3941808d10d4e227da2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerRigidbody: {fileID: 1131125401}
+  speed: 8
 --- !u!1 &1210630767
 GameObject:
   m_ObjectHideFlags: 0
